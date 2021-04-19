@@ -1,0 +1,63 @@
+<!-- герой -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-name">
+      <div class="hero-name__information--name">
+        <b>Denis Novik</b>
+      </div>
+      <div class="hero-name__information--age">
+        <p class="hero-name__text text">UX | UI designer 24 years old, Minsk</p>
+      </div>
+      <div class="language">
+        <b class="language-bold bold">RU | <span class="wrapper-lan">ENG</span></b>
+      </div>
+
+      <button type="button" class="btn-burger" data-menu-button>
+        <svg class="burger-icon" width="33" height="20">
+          <use href="./images/symbol-defs.svg#Group-3"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile is-open" data-menu>
+      <button type="button" class="burger-close" data-menu-close>
+        <svg class="burger-icon" width="23" height="22">
+          <use href="./images/symbol-defs.svg#Group"></use>
+        </svg>
+      </button>
+      <ul class="mobile-list list">
+        <li class="mobile-item item">
+          <a href="" class="mobile-link link mobile-link__current">Home</a>
+        </li>
+        <li class="mobile-item item">
+          <a href="" class="mobile-link link">About me</a>
+        </li>
+        <li class="mobile-item item">
+          <a href="" class="mobile-link link">Skills</a>
+        </li>
+        <li class="mobile-item item">
+          <a href="" class="mobile-link link">Portfolio</a>
+        </li>
+        <li class="mobile-item item">
+          <a href="" class="mobile-link link">Contacts</a>
+        </li>
+      </ul>
+      <div class="mobile-menu">
+        <b>RU | <span class="wrapper-lan">ENG</span></b>
+      </div>
+    </div>
+    <div class="hero-pictures">
+      <picture>
+        <source
+          srcset="./images/portfolio/BSPP2266.jpg 1x, ./images/portfolio/BSPP2266.jpg 2x"
+          media="(min-width: 945px)"
+        />
+        <source
+          srcset="./images/portfolio/mob/BSPP2266.jpg 1x, ./images/portfolio/mob/BSPP2266.jpg 2x"
+          media="(min-width: 375px)"
+        />
+        <img src="./images/portfolio/mob/BSPP2266.jpg" alt="фото дениса" />
+      </picture>
+    </div>
+  </div>
+</section>
