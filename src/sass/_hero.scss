@@ -1,0 +1,113 @@
+/* =================== ГЕРОЙ =================== */
+.hero-name {
+  padding: 40px 0px;
+  position: relative;
+  @media (min-width: 940px) {
+    display: flex;
+  }
+}
+.hero-name__text {
+  max-width: 163px;
+}
+
+.hero-name__information--name {
+  max-width: 150px;
+  margin-right: 298px;
+  font-size: 47px;
+  line-height: 1.25;
+
+  color: #070707;
+}
+.hero-name__information--age {
+  align-self: flex-end;
+}
+
+.language {
+  @media (max-width: 939px) {
+    display: none;
+  }
+  @media (min-width: 940px) {
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    color: #828282;
+  }
+}
+/* =================== МОБА =================== */
+.mobile {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  padding: 65px 28px 57px 26px;
+  background-color: white;
+  transform: translate(-50%, 0%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.is-open {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(1);
+  }
+  @media (min-width: 945px) {
+    display: none;
+  }
+}
+.burger-close {
+  position: absolute;
+  top: 66px;
+  right: 28px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.btn-burger {
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.burger-icon {
+  display: none;
+  @media (max-width: 944px) {
+    display: block;
+  }
+}
+.mobile-link {
+  font-size: 34px;
+  line-height: 1.23;
+
+  color: #828282;
+}
+.mobile-item:not(:last-child) {
+  margin-bottom: 62px;
+}
+.mobile-link__current {
+  color: #090909;
+}
+.mobile-menu {
+  bottom: 15px;
+  right: 20px;
+  position: absolute;
+  font-size: 34px;
+  line-height: 1.2;
+
+  color: #828282;
+
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+.wrapper-lan {
+  color: #000000;
+}

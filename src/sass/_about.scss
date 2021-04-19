@@ -1,0 +1,66 @@
+/* =================== About =================== */
+
+.about {
+  background-color: #f6f6f6;
+  padding: 113px 0px;
+  text-align: center;
+}
+.about-title {
+  margin-bottom: 30px;
+  font-size: 34px;
+  line-height: 1.2;
+}
+.biography-list {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.biography-item:not(:last-child) {
+  margin-bottom: 46px;
+}
+.biography-text {
+  max-width: 485px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantages {
+  text-align: center;
+  padding: 91px 0px 97px;
+}
+.advantages-title {
+  margin-bottom: 69px;
+}
+.advantage-text {
+  margin-bottom: 83px;
+}
+.program-list {
+  @media (min-width: 940px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.appraisal-icons {
+  display: flex;
+}
+.program-icon__star:not(:last-child) {
+  margin-right: 9px;
+}
+.program-text {
+  margin: 0 auto;
+  width: 80px;
+  margin-bottom: 40px;
+}
+.program-item {
+  justify-content: center;
+  display: flex;
+
+  &:not(:last-child) {
+    @media (max-width: 939px) {
+      margin-bottom: 81px;
+    }
+  }
+}
+.program-icon {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,22 @@
+/* =================== ПОРТФОЛИО =================== */
+.portfolio {
+  background-color: #f6f6f6;
+
+  text-align: center;
+  padding: 125px 0px 83px;
+}
+.portfolio-title {
+  margin-bottom: 47px;
+}
+.card:not(:last-child) {
+  margin-bottom: 99px;
+}
+.card-images {
+  margin-bottom: 45px;
+}
+.card-link {
+  color: #070707;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+}
