@@ -1,2 +1,0 @@
-.header-menu{display:none}@media (min-width:940px){.header-menu{display:block;position:relative}}.header-menu:after{content:"";position:absolute;margin-right:auto;width:100%;border:1px solid #828282;transform:matrix(1,0,0,1,0,0)}.navigator-list{display:flex;justify-content:space-between}.navigaror-link{padding:32px 0;font-size:18px;line-height:1.2;color:#828282}.navigaror-item{display:contents}.navigaror-link__current{color:#070707}
-/*# sourceMappingURL=/test/src.fc95ee63.css.map */
